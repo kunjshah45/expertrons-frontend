@@ -1,0 +1,417 @@
+
+
+/***************vanshika css***********************************/
+
+
+    td input[type=text],
+    td select {
+      width: 100%;
+      height: 30px;
+      margin: 0;
+      padding: 2px 8px;
+    }
+
+    th:last-child {
+      text-align: right;
+    }
+
+    td:last-child {
+      text-align: right;
+    }
+
+    td:last-child .button {
+      width: 30px;
+      height: 30px;
+      text-align: center;
+      padding: 0px;
+      margin-bottom: 0px;
+      margin-right: 5px;
+      background-color: #FFF;
+    }
+
+    td:last-child .button .fa {
+      line-height: 30px;
+      width: 30px;
+    }
+.myInput {
+background-position: 10px 10px;
+  background-repeat: no-repeat;
+  width:100%;
+  font-size: 16px;
+  padding: 10px 0px 12px 0px;
+  border: 1px solid #ddd;
+  margin: 0px 10px 0px 70px;
+}
+
+div.searchable {
+    width: 300px;
+    float: left;
+    margin: 0 15px;
+}
+///////**** css for searchable-input *******//
+.searchable input {
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    padding: 10px;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box; /* Firefox, other Gecko */
+    box-sizing: border-box; /* Opera/IE 8+ */
+    display: block;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+
+}
+
+.searchable ul {
+    display: none;
+    list-style-type: none;
+    background-color: #fff;
+    border-radius: 0 0 5px 5px;
+    border: 1px solid #add8e6;
+    border-top: none;
+    max-height: 180px;
+    margin: 0;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 0;
+}
+
+.searchable ul li {
+    padding: 7px 9px;
+    border-bottom: 1px solid #e1e1e1;
+    cursor: pointer;
+    color: #6e6e6e;
+}
+
+.searchable ul li.selected {
+    background-color: #e8e8e8;
+    color: #333;
+}
+
+
+/*********END OF VANSHIA CSS***************************/
+
+/*Ankita*/
+
+.pc-tabs > input,
+.pc-tabs section > div{
+    display: none;
+}
+
+#tab1:checked ~ section .tab1,
+#tab2:checked ~ section .tab2,
+#tab3:checked ~ section .tab3,
+#tab4:checked ~ section .tab4{
+    display: block;
+}
+
+*, *:after, *:before{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.pc-tabs{
+    width: 1000px;
+    max-width: 2000px;
+    margin: 30 auto;
+}
+
+.pc-tabs ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pc-tabs ul li label{
+    float: left;
+    padding: 15px 30px;
+    border:1px solid #ddd;
+    border-bottom: 0;
+    background-color: #eeeeee;
+    color: #444;
+}
+
+.pc-tabs ul li label:hover{
+    background-color:lightgrey;
+}
+
+.pc-tabs ul li label:active{
+    background-color: #fff;
+}
+
+.pc-tabs ul li:not(:last-child) label{
+    border-right-width: 0;
+}
+
+.pc-tabs section{
+    clear: both;
+}
+
+
+
+#tab1:checked ~nav.tab1 label,
+#tab2:checked ~nav.tab1 label,
+#tab3:checked ~nav.tab1 label,
+#tab4:checked ~nav.tab1 label{
+    background-color:#fff;
+    color:lightblue;
+    position: relative;
+}
+
+#tab1:checked ~nav.tab1 label:after,
+#tab2:checked ~nav.tab1 label:after,
+#tab3:checked ~nav.tab1 label:after,
+#tab4:checked ~nav.tab1 label::after{
+    content: "";
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background-color: #fff;
+    left: 4;
+    bottom: -1px;
+
+}
+
+.card-block{
+  position: absolute;
+  top: 10pc;
+  right: 25pc;
+  width: 12pc;
+  height: 3pc;
+
+}
+
+input[type="file"]{
+  display: none;
+}
+
+label{
+  color:white;
+  position: absolute;
+  top:10pc;
+  right:18pc;
+  display: flex;
+
+  border-radius: 0.5pc;
+  padding-top: 1pc;
+  padding-bottom: 1pc;
+  padding-left: 1pc;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 10pc;
+  height: 2.5pc;
+}
+#society {
+  display: flex;
+  color:white;
+  justify-content: flex-start;
+  position: absolute;
+  top: -4.8pc;
+  right: 2pc;
+  width: 13pc;
+  height: 2.5pc;
+  border-radius: 0.5pc;
+  font-family: Arial, Helvetica, sans-serif;
+
+  padding-top: 0.5pc;
+  padding-bottom: 0.5pc;
+  padding-left: 1.5pc;
+  padding-right: 1pc;
+}
+
+.wrapper {
+  position: relative;
+  padding: 20px;
+}
+
+.trigger {
+  margin-bottom: 10px;
+}
+
+.content {
+  visibility: hidden;
+  background-color: #bfbfbf;
+  position: absolute;
+  padding: 15px;
+}
+
+.content:before {
+  position: absolute;
+  display: none;
+  top: -10px;
+  content: "";
+
+  border-style: solid;
+  border-width: 0 10px 10px 10px;
+  border-color: transparent transparent #bfbfbf transparent;
+}
+
+.wrapper:hover .content {
+  visibility: visible;
+  display: none;
+}
+
+body{
+  font-family: 'Poppins' , sans-serif;
+  font-size: 14px;
+  background: #eee;
+  background-image: url(../img/Nature-HD-Wallpaper1.jpg);
+  color:#666;
+  height: 100vh;
+}
+
+.login-container{
+  height: 110vh;
+  width: 100%;
+}
+
+.right{
+  max-width: 100%;
+  widows: 370px;
+  padding: 15px;
+  margin: auto;
+  position: absolute;
+  right: 0px;
+  width: 400px;
+  border: black;
+  padding: 10px;
+  background-color:white;
+  height: 110vh;
+}
+
+.form-control{
+  font-size: 15px;
+  min-height:48px;
+  font-weight: 500;
+}
+
+.form-control:focus{
+  border-color:royalblue;
+  box-shadow: 0 0 0 0.2rem rgba(114,61,190,.25);
+}
+
+.forgot-link{
+  font: size 13px;
+}
+
+.forgot-link label{
+  margin-bottom: 0;
+}
+.right a{
+  text-decoration: none;
+  color:black;
+}
+.right a:hover{
+  color:wheat;
+}
+.btn-custom{
+  background: #723dbe;
+  border-color: #723dbe;
+  color:#fff;
+  font-size: 15px;
+  font-weight: 600;
+  min-height:48px;
+}
+
+.btn-custom:focus,
+.btn-custom:hover,
+.btn-custom:active,
+.btn-custom:active:focus{
+  background: #54229d;
+  border-color: black;
+  color: #fff;
+}
+
+.div{
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+
+}
+
+.div a:hover{
+  height: 40vh;
+  text-decoration: none;
+
+}
+
+
+/* Rounak css end  */
+
+.clearfix:before,.clearfix:after {
+    content: " ";display: table; /* 2 */}
+.clearfix:after {clear: both;}
+.clearfix {*zoom: 1;}
+
+.options {margin-bottom: 8px;}
+
+/* Style checkboxes as Toggle Buttons */
+.ck-button {
+    margin:2px;
+    background-color:#EFEFEF;
+    border-radius:4px;
+    border:1px solid #aaa;
+    overflow:auto;
+    float:left;
+    color:#aaa;
+}
+.ck-button:hover {
+    background-color:#ddd;
+}
+.ck-button label {
+    float:left;
+    width:auto;
+    margin-bottom: 0;
+}
+.ck-button label span {
+    text-align:center;
+    padding:3px 8px;
+    display:block;
+}
+.ck-button label input {
+    position:absolute;
+    top:-20px;
+}
+.ck-button input:checked + span {
+    color:#111;
+}
+
+
+/*end ankita */
+
+
+/* Rounak css start  */
+/* Dropdown Button */
+#myInputSearch {
+  padding: 20px;
+  margin-top: -6px;
+  border: 0;
+  border-radius: 0;
+  background: #f1f1f1;
+}
+datalist {
+  display: none;
+}
+.font-l{
+  font-size: 2rem;
+  font-weight: 400;
+}
+/* Rounak css end  */
+/*jagrut*/
+#myInsert{
+  margin-bottom: 2rem;
+}
